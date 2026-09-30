@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#050508;overflow:hidden;font-family:'Trebuchet MS',Arial,sans-serif;color:#fff}
+body{display:flex;align-items:center;justify-content:center}
+#wrap{position:relative;width:min(100vw,177.78vh);aspect-ratio:16/9;font-size:min(1.5vw,2.66vh)}
+canvas{width:100%;height:100%;display:block;background:#000}
+#ui{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.panel{pointer-events:auto;background:rgba(8,6,20,.86);border:.15em solid #0ff;box-shadow:0 0 2em #0ff6;padding:1.2em 2em;text-align:center;max-height:96%;overflow:auto;border-radius:.6em;min-width:24em}
+h1{margin:0 0 .3em;font:italic 900 3.4em Impact,'Arial Black',sans-serif;letter-spacing:.08em;text-shadow:0 0 .4em #0ff}
+h1 span{color:#f0a;text-shadow:0 0 .4em #f0a}
+h2{margin:.2em 0 .6em;font:italic 900 2em Impact,'Arial Black',sans-serif;letter-spacing:.06em;color:#0ff}
+button{display:block;width:100%;margin:.4em 0;padding:.6em 1.2em;font:700 1.1em 'Trebuchet MS',Arial,sans-serif;color:#fff;background:#151033;border:.12em solid #0ff;border-radius:.4em;cursor:pointer;transition:.12s}
+button:hover{background:#0ff;color:#000;transform:scale(1.04);box-shadow:0 0 1em #0ff}
+button.sel{border-color:#f0a;box-shadow:0 0 .8em #f0a;background:#2a0f3a}
+.row{display:flex;gap:.6em}.row button{margin:.3em 0}
+small{display:block;opacity:.7;font-size:.75em;font-weight:400;margin-top:.2em}
+label{display:flex;justify-content:space-between;align-items:center;gap:1em;margin:.7em 0;font-weight:700}
+select,input[type=range]{accent-color:#f0a}
+table{width:100%;border-collapse:collapse;margin:.6em 0;font-size:.9em}
+td,th{padding:.3em .6em;border-bottom:1px solid #0ff4}th{color:#0ff}
+p{margin:.4em 0}
